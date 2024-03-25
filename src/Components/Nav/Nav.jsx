@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink , Link } from "react-router-dom";
 
 const Nav = () => {
   const links = (
@@ -63,9 +63,9 @@ const Nav = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-3xl text-[#131313] font-bold">
+        <Link to='/' className="btn btn-ghost text-3xl text-[#131313] font-bold">
           Book Vibe
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
