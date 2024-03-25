@@ -70,9 +70,9 @@ const Nav = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
-      <div className="navbar-end gap-4">
-        <a className="btn bg-[#23BE0A] text-white">Sign In</a>
-        <a className="btn bg-[#59C6D2] text-white">Sign Up</a>
+      <div className="navbar-end flex gap-4">
+        <button className="hidden lg:block btn bg-[#23BE0A] text-white">Sign In</button>
+        <button className="btn bg-[#59C6D2] text-white">Sign Up</button>
       </div>
     </div>
   );

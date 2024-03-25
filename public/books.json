@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "tkam.jpg",
+    "review": "A timeless classic that explores the complexities of morality and racism in the American South.",
+    "totalPages": 281,
+    "rating": 4.5,
+    "category": "Fiction",
+    "tags": ["Drama", "Social Issues"],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "id": 2,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "1984.jpg",
+    "review": "A dystopian masterpiece that warns of the dangers of totalitarianism and surveillance.",
+    "totalPages": 328,
+    "rating": 4.7,
+    "category": "Science Fiction",
+    "tags": ["Dystopian", "Political"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "id": 3,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "gatsby.jpg",
+    "review": "A captivating tale of love, ambition, and the American Dream set in the Jazz Age.",
+    "totalPages": 180,
+    "rating": 4.6,
+    "category": "Classic",
+    "tags": ["Romance", "Roaring Twenties"],
+    "publisher": "Charles Scribner's Sons",
+    "yearOfPublishing": 1925
+  },
+  {
+    "id": 4,
+    "bookName": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "image": "hp1.jpg",
+    "review": "An enchanting introduction to the magical world of Hogwarts and the boy who lived.",
+    "totalPages": 320,
+    "rating": 4.8,
+    "category": "Fantasy",
+    "tags": ["Magic", "Coming of Age"],
+    "publisher": "Bloomsbury",
+    "yearOfPublishing": 1997
+  },
+  {
+    "id": 5,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "catcher.jpg",
+    "review": "A poignant exploration of teenage angst and disillusionment in post-war America.",
+    "totalPages": 224,
+    "rating": 4.4,
+    "category": "Literary Fiction",
+    "tags": ["Young Adult", "Existentialism"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "id": 6,
+    "bookName": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "pride.jpg",
+    "review": "A timeless romance with sharp social commentary, showcasing Austen's wit and insight.",
+    "totalPages": 279,
+    "rating": 4.6,
+    "category": "Romance",
+    "tags": ["Regency", "Satire"],
+    "publisher": "T. Egerton, Whitehall",
+    "yearOfPublishing": 1813
+  }
+]
