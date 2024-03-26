@@ -1,4 +1,4 @@
- import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import pngwing1 from '../../assets/pngwing1.jpg'
 const Banner = () => {
     return (
