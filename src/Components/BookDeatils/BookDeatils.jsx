@@ -1,4 +1,8 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import { saveReadItem, saveWishList } from "../../Utility/Utility";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const BookDeatils = () => {
     const books = useLoaderData();
@@ -17,6 +21,15 @@ const BookDeatils = () => {
       publisher,
       yearOfPublishing,
     } = book;
+
+    const handleReadNow = () =>{
+      saveReadItem(idInt);
+      
+    }
+    const handleWishList = () => {
+      saveWishList(idInt);
+    }
+
     return (
       <div className="flex flex-col lg:flex-row gap-6 my-8">
         {/* image container */}
@@ -71,11 +84,20 @@ const BookDeatils = () => {
               {rating}
             </span>
           </div>
-          <button className="btn btn-outline border-[#1313134D] mr-2">
+          <button
+            onClick={handleReadNow}
+            className="btn btn-outline border-[#1313134D] mr-2"
+          >
             Read Now
           </button>
-          <button className="btn bg-[#59C6D2] text-white">Wishlist</button>
+          <button
+            onClick={handleWishList}
+            className="btn bg-[#59C6D2] text-white"
+          >
+            Wishlist
+          </button>
         </div>
+        <ToastContainer />
       </div>
     );
 };
