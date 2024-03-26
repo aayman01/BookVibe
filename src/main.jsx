@@ -5,12 +5,14 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Root from './Components/Root/Root'
 import Home from './Components/Home/Home'
 import BookDeatils from './Components/BookDeatils/BookDeatils'
+import ErrorPage from './Components/ErrorPage/ErrorPage'
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -18,7 +20,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/bookDeatils",
-        element: <BookDeatils></BookDeatils>
+        element: <BookDeatils></BookDeatils>,
+        loader: () => fetch ('/books.json') 
       },
     ],
   },
