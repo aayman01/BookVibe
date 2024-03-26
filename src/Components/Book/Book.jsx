@@ -7,7 +7,7 @@ const Book = ({ book }) => {
   return (
     <Link
       to={`/bookDeatils/${id}`}
-      className="card card-compact  bg-base-100 p-4 border"
+      className="card card-compact bg-base-100 p-4 border transition hover:scale-105 hover:border-[#23BE0A] hover:border-2"
     >
       <figure className="bg-[#F3F3F3] rounded-xl py-4">
         <img src={image} alt="Books" />
