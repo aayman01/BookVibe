@@ -8,7 +8,7 @@ const ListedBooks = () => {
       <div className="w-full bg-[#0D0D0D0D] rounded-lg mb-16">
         <h2 className="font-bold text-3xl text-center py-6">Books</h2>
       </div>
-      <div className="flex items-center overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap text-gray-100 max-w-6xl mx-auto px-2">
+      <div className="flex items-center overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap text-gray-100 max-w-6xl mx-auto">
         <Link
           rel="noopener noreferrer"
           to=""

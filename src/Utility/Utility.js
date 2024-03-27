@@ -16,7 +16,7 @@ const saveReadItem = (id) => {
     localStorage.setItem("read", JSON.stringify(storedItem));
     toast.success("SuccesFully Added to the Read list");
   } else {
-    toast.error("Already added in Read list");
+    toast.error("Already added in Read List");
   }
 };
 
