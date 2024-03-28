@@ -51,7 +51,7 @@ const Nav = () => {
             isActive ? "text-[#23BE0A] border-2 border-[#23BE0A]" : ""
           }
         >
-          About us
+          Contact us
         </NavLink>
       </li>
     </>

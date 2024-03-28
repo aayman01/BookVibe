@@ -2,6 +2,7 @@
 const ContactUs = () => {
     return (
       <div>
+        <h2 className="text-center mb-5 font-bold text-3xl">Complete this form</h2>
         <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm">
           <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
             <div className="col-span-full sm:col-span-3">
@@ -59,9 +60,7 @@ const ContactUs = () => {
                 className="w-full rounded-md bg-slate-100 "
               ></textarea>
             </div>
-            <button className="btn bg-[#23BE0A] text-white">
-              Submit
-            </button>
+            <button className="btn bg-[#23BE0A] text-white">Submit</button>
           </div>
         </fieldset>
       </div>
