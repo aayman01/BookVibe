@@ -20,7 +20,7 @@ const ReadBookList = () => {
             setReadedbooks(readedBooks);
         }
     },[books]);
-    console.log(readedBooks);
+    // console.log(readedBooks);
     return (
       <div>
         {

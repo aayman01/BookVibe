@@ -34,6 +34,16 @@ const Nav = () => {
           Pages to Read
         </NavLink>
       </li>
+      <li className="ml-2">
+        <NavLink
+          to="/helpCenter"
+          className={({ isActive }) =>
+            isActive ? "text-[#23BE0A] border-2 border-[#23BE0A]" : ""
+          }
+        >
+          Help Center
+        </NavLink>
+      </li>
     </>
   );
   return (
