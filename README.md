@@ -1,8 +1,13 @@
-# React + Vite
+# Book Vibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Website is where you can read books for free.
 
-Currently, two official plugins are available:
+Live link: https://sweet-monstera-0fdfc4.netlify.app/
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React Router.
+- Live previews.
+- Responsive for mobile.
+- Data saved in local storage.
+- On this website, you can find many books and their details you can also book to the read list and wish list for later.
+
