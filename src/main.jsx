@@ -11,6 +11,7 @@ import ReadBookList from './Components/ReadBookList/ReadBookList'
 import WishList from './Components/WishList/WishList'
 import PagesToRead from './Components/PagesToRead/PagesToRead'
 import HelpCenter from './Components/HelpCenter/HelpCenter'
+import ContactUs from './Components/ContactUs/ContactUs'
 
 
 const router = createBrowserRouter([
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
         path: "/helpCenter",
         element: <HelpCenter></HelpCenter>
       },
+      {
+        path: '/contactus',
+        element: <ContactUs></ContactUs>
+      }
     ],
   },
 ]);

@@ -44,6 +44,16 @@ const Nav = () => {
           Help Center
         </NavLink>
       </li>
+      <li className="ml-2">
+        <NavLink
+          to="/contactus"
+          className={({ isActive }) =>
+            isActive ? "text-[#23BE0A] border-2 border-[#23BE0A]" : ""
+          }
+        >
+          About us
+        </NavLink>
+      </li>
     </>
   );
   return (
