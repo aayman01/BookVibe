@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import { getStoredReadItem } from "../../Utility/Utility";
 import Readedbook from "../Readedbook/Readedbook";
 
+
 const ReadBookList = () => {
     const books = useLoaderData();
     const [readedBooks, setReadedbooks] = useState([]);
@@ -23,13 +24,9 @@ const ReadBookList = () => {
     // console.log(readedBooks);
     return (
       <div>
-        {
-            readedBooks.map(readedbook => 
-            <Readedbook 
-                key={readedbook.id}
-                readedbook={readedbook}>
-            </Readedbook>)
-        }
+        {readedBooks.map((readedbook) => (
+          <Readedbook key={readedbook.id} readedbook={readedbook}></Readedbook>
+        ))}
       </div>
     );
 };

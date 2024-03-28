@@ -3,7 +3,6 @@ import { CiLocationOn } from "react-icons/ci";
 import { GoPeople } from "react-icons/go";
 import { FaRegFileAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { readedbookContext } from "../../Utility/ContextApi";
 
 const Readedbook = ({ readedbook }) => {
   const {
@@ -19,7 +18,6 @@ const Readedbook = ({ readedbook }) => {
     totalPages,
   } = readedbook;
   return (
-    <readedbookContext.Provider value={{bookName, totalPages}}>
       <div>
         <div className="p-6 rounded-md lg:flex gap-6 border shadow-xl mt-7 mb-5">
           <div>
@@ -30,7 +28,7 @@ const Readedbook = ({ readedbook }) => {
             />
           </div>
           <div className="mt-6 mb-2">
-            <h2 className="text-2xl font-bold text-black tracking-wide mb-3">
+            <h2 className="text-2xl font-bold text-black tracking-wide mb-3 playfair-display">
               {bookName}
             </h2>
             <p className="text-[#131313CC] text-lg font-medium mb-3">
@@ -86,7 +84,6 @@ const Readedbook = ({ readedbook }) => {
           </div>
         </div>
       </div>
-    </readedbookContext.Provider>
   );
 };
 Readedbook.propTypes = {

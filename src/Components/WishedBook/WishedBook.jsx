@@ -26,7 +26,7 @@ const WishedBook = ({ wishList }) => {
           className="w-[200px] bg-[#0D0D0D0D] border p-5 rounded-md"
         />
         <div className="mt-6 mb-2">
-          <h2 className="text-2xl font-bold text-black tracking-wide mb-3">
+          <h2 className="text-2xl font-bold text-black tracking-wide mb-3 playfair-display">
             {bookName}
           </h2>
           <p className="text-[#131313CC] text-lg font-medium mb-3">

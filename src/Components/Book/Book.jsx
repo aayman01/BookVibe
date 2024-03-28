@@ -23,7 +23,9 @@ const Book = ({ book }) => {
         ))}
       </div>
       <div className="card-body">
-        <h2 className="card-title text-2xl font-bold">{bookName}</h2>
+        <h2 className="card-title text-2xl font-bold playfair-display">
+          {bookName}
+        </h2>
         <p className="text-base font-medium mb-3">By : {author}</p>
         <hr />
       </div>

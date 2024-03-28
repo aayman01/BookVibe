@@ -38,7 +38,9 @@ const BookDeatils = () => {
         </div>
         {/* book deatils */}
         <div className="lg:w-1/2">
-          <h2 className="text-[#131313] text-4xl font-bold mb-3">{bookName}</h2>
+          <h2 className="text-[#131313] text-4xl font-bold mb-3 playfair-display">
+            {bookName}
+          </h2>
           <p className="text-[#131313CC] text-lg font-medium mb-5">
             by : {author}
           </p>
